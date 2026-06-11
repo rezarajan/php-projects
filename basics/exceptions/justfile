@@ -1,0 +1,10 @@
+# runs the exception handler for a failure
+run-fail:
+    php fail.php true
+
+# runs the exception handler for a success
+run-success:
+    php fail.php false
+
+# runs all tests
+run-all: run-fail run-success
