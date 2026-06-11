@@ -1,0 +1,12 @@
+# test `gettext` localization from en_US to fr_FR
+test-fr:
+	LANG=en_US.UTF-8 \
+	LC_ALL=en_US.UTF-8 \
+	LANGUAGE=fr_FR \
+	TEXTDOMAIN=messages \
+	TEXTDOMAINDIR="$PWD/locale" \
+	gettext "Hello World"
+
+# test php localization functionality
+test-php:
+	php gettext.php
