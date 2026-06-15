@@ -1,0 +1,19 @@
+{
+    "name": "cascadura/weatherapp",
+    "description": "PHP Weather Application",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "WeatherApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Reza Rajan",
+            "email": "28660160+rezarajan@users.noreply.github.com"
+        }
+    ]
+}
